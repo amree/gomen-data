@@ -105,3 +105,17 @@ system 'mv ./all.csv ./output/all.csv'
 system 'cat ./output/*M.csv > ./output/all_menengah.csv'
 system 'cat ./output/*R.csv > ./output/all_rendah.csv'
 puts 'Combining files done...'
+
+# Add CSV headers
+#
+Dir.glob(File.join('./output', '*.csv')).each do |output|
+  File.open(output + '.bak', 'w') do |fo|
+    fo.puts 'BIL,NEGERI,PPD,JENIS SEKOLAH,KOD SEKOLAH,NAMA SEKOLAH,ALAMAT,DAERAH,POSKOD,NO TELEFON,NO FAKS'
+    File.foreach(output) do |li|
+      fo.puts li
+    end
+  end
+
+  File.rename(output + '.bak', output)
+end
+puts 'Headers added...'
