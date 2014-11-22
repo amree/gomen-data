@@ -1,5 +1,13 @@
 # README
 
+# Usage
+
+```
+# Make sure ruby and bundle is installed
+$ bundle
+$ bundle exec ruby app.rb
+```
+
 ## Output
 
 Example:

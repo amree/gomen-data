@@ -17,6 +17,14 @@ Install `poltergeist`:
 brew install phantomjs
 ```
 
+# Usage
+
+```
+# Make sure ruby and bundle is installed
+$ bundle
+$ bundle exec ruby app.rb
+```
+
 ## Source
 
 https://www.eperolehan.com.my/qt.notice.board.main.ac

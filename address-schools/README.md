@@ -18,7 +18,7 @@ Install all required gems
 bundle install
 ```
 
-# Run
+# Usage
 
 Using existing pdfs
 
