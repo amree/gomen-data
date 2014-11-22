@@ -13,4 +13,6 @@ It'd be great if one day people would actually contribute to this repo :)
 - Make sure there's a ready output for anyone to consume
 - Put the output in `output` directory
 
-@AmreeZaid
+## Authors
+
+- [@AmreeZaid](https://twitter.com/amreezaid)
