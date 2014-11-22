@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri'
-gem 'byebug'
-gem 'curb'
+gem 'nokogiri', '~> 1.6.4.1'
+gem 'byebug', '~> 3.5.1'
+gem 'curb', '~> 0.8.6'
