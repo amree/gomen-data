@@ -1,10 +1,16 @@
-gomen-data
-==========
+# README
 
-My scripts for getting various data related to Malaysia's government into CSV format.
+## Introduction
 
-I'll be using Ruby extensively in this project (part of my learning process).
+Scripts for getting various data related to Malaysia into CSV since most of them are not in programmer friendly format.
 
-If you just want the output, just go directly into the `output` directory for each project. Those output files will be updated whenever I have time :)
+It'd be great if one day people would actually contribute to this repo :)
+
+## Contributing
+
+- You can use any language you like
+- Put a README on how to actually run the script
+- Make sure there's a ready output for anyone to consume
+- Put the output in `output` directory
 
 @AmreeZaid
